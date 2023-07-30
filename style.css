@@ -1,0 +1,35 @@
+ :root {
+     --bg-color: #081b29;
+     --second-bg-color:#112e42;
+     --text-color: #ededed;
+     --main-color:#00abf0;
+ }
+ html{
+     font-size: 100%;
+     overflow: auto;
+ }
+ body{
+     color: var(--second-bg-color);
+ }
+.navbar-brand{
+    color: var(--text-color);
+    margin-left: 100px;
+}
+
+ .navbar-nav{
+   padding: auto;
+   margin-left: 30px;
+ }
+ .navbar-nav a{
+    color: var(--text-color);
+    margin-left: 10px;
+
+ }
+ h4{
+    color: var(--second-bg-color);
+ }
+ hr{
+    border: 1px solid var(--bg-color);
+ }
+
+  
